@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik:wght@700&display=swap');
+
+body {
+    margin: 0;
+    width: 100vw;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.hero {
+    margin: 20px;
+    padding: 10px;
+    background-color: #dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    border-bottom: 3px solid rgb(98, 98, 255);
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding-bottom: 0;
+    margin: 0;
+    text-shadow: 20px 20px 20px rgb(255, 255, 255);
+}
+
+.search-box {
+    background-color: #ffffff;
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-text-input {
+    background: none;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-btn {
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-text-input:focus {
+    box-shadow: none;
+}
+
+.loupe-blue {
+    margin: 0;
+}
+
+.main-content {
+    margin: 40px 20px;
+}
+
+.add-btn {
+    color: rgba(255, 255, 255, .55);
+    background-color: #2a303f;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 30px;
+    box-shadow: 3px 5px 8px rgb(101, 101, 101);
+    transition: all .2s;
+}
+
+.add-btn:hover {
+    box-shadow: none;
+    color: #fff;
+    background-color: #595d68;
+}
+
+.ul__add {
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: lightgray;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .td_id {
+    width: 50px;
+  }
+
+  .td_values {
+    white-space: nowrap;
+
+    max-width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    border-right: none;
+}
+
+.td_btn{
+    border-left: none;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+}
+
+.icon-open{
+    display: inline;
+    color: #595d68;
+    opacity: 0;
+}
+
+.tr_body:hover{
+    background-color: #dddddd;
+}
+
+.tr_body:hover .icon-open{
+    opacity: 1;
+}
+
+.icon-open:hover{
+    color: #1a1c23;
+}
+
+.status{
+    color: rgb(6, 201, 6);
+    font-size: 16px;
+    font-weight: bold;
+}
